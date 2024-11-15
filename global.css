@@ -1,0 +1,175 @@
+/* global.css */
+
+/* Theme Colors */
+:root {
+  --primary-color: #1E3A8A; /* Dark Blue */
+  --secondary-color: #1F2937; /* Dark Gray */
+  --highlight-color: #3B82F6; /* Bright Blue */
+  --button-hover-color: #2563EB; /* Lighter Blue */
+  --text-color: #F9FAFB; /* Light Text */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size: 16px;
+  --spacing: 1rem;
+}
+
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  padding: var(--spacing);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styling */
+h1 {
+  background-color: white;
+  color: var(--highlight-color);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: var(--spacing);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Navigation Link Buttons */
+nav a {
+  font-size: var(--font-size);
+  padding: 0.8rem 2rem;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 25px; /* Rounded buttons for a modern look */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a floating effect */
+}
+
+nav a:hover {
+  background-color: var(--button-hover-color);
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+nav a:active {
+  transform: translateY(0); /* Button returns to normal when clicked */
+}
+
+/* Floating Button Styling */
+.floating-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  background-color: var(--highlight-color);
+  color: rgb(170, 28, 28);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.floating-button:hover {
+  transform: translateY(-8px);
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--highlight-color);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+td {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+tr:nth-child(even) td {
+  background-color: #374151; /* Slightly lighter gray for alternating rows */
+}
+
+/* Form Inputs */
+input, select, textarea {
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background-color: #4B5563;
+  color: white;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--highlight-color);
+}
+
+input::placeholder, select::placeholder, textarea::placeholder {
+  color: #A1A1AA; /* Light gray placeholder */
+}
+
+/* Links */
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  table, th, td {
+    font-size: 14px;
+  }
+
+  .floating-button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+/* global.css */
+button {
+  background-color: #828683; /* Green */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #47f077; /* Darker green on hover */
+}
+
