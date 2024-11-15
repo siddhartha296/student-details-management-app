@@ -1,6 +1,6 @@
 # Student Management Portal 🧑🏼‍🎓
 
-A React-based **Student Management Portal** designed to manage student registrations, attendance, and marks efficiently. The application includes user authentication, CRUD operations on student data, and attendance/marks management. It is fully functional and deployed using **Firebase Hosting**.
+A React-based **Student Management Portal** designed to manage student registrations, attendance, and marks efficiently.,***The above is the src folder in the project*** The application includes user authentication, CRUD operations on student data, and attendance/marks management. It is fully functional and deployed using **Firebase Hosting**.
 
 ## Features 🚀
 - **User Authentication**: Secured with Firebase Authentication for role-based access.
