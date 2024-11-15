@@ -5,7 +5,7 @@ A React-based **Student Management Portal** designed to manage student registrat
 ---
 
 ## Live Demo 🌍
-Access the live version of the application here: [Student Management Portal](<firebase-deployment-url](https://student-details-management-b8.web.app)>)
+Access the live version of the application here: [Student Management Portal](https://student-details-management-b8.web.app)
 
 ---
 
