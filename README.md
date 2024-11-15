@@ -2,6 +2,13 @@
 
 A React-based **Student Management Portal** designed to manage student registrations, attendance, and marks efficiently.,***The above is the src folder in the project*** The application includes user authentication, CRUD operations on student data, and attendance/marks management. It is fully functional and deployed using **Firebase Hosting**.
 
+---
+
+## Live Demo 🌍
+Access the live version of the application here: [Student Management Portal](<[firebase-deployment-url](https://student-details-management-b8.web.app)>)
+
+---
+
 ## Features 🚀
 - **User Authentication**: Secured with Firebase Authentication for role-based access.
 - **Register Students**: Add new student details, ensuring a unique Student ID.
@@ -131,18 +138,13 @@ Ensure the following tools are installed:
    - Loads a selected student’s details in a form for updating.  
    - Ensures unique Student IDs are not accidentally overwritten.
 
----
 
-## Live Demo 🌍
-Access the live version of the application here: [Student Management Portal](<firebase-deployment-url>)
-
----
 
 ## Author ✍️
 
 **Siddhartha Pittala**  
 - IT Department, VRSEC  
-- GitHub: [Siddhartha's GitHub](https://github.com/<your-github-username>)  
-- LinkedIn: [Siddhartha Pittala](https://www.linkedin.com/in/<your-linkedin-username>)  
+- GitHub: [Siddhartha's GitHub](https://github.com/siddhartha296)  
+- LinkedIn: [Siddhartha Pittala](www.linkedin.com/in/siddhartha-pittala-036001254)  
 
 Replace `<repository-url>` with your GitHub repository link, and `<firebase-deployment-url>` with the Firebase hosting URL. Let me know if you need further modifications! 😊
